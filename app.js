@@ -46,8 +46,6 @@ function sortearAmigo() {
   ul_resul.innerHTML = "";
 
   const lista = document.createElement("li");
-  lista.textContent = amigos[nombre_elegido];
+  lista.textContent = `El nombre elegido es: ${amigos[nombre_elegido]}`;
   ul_resul.appendChild(lista);
-
-  console.log(ul_resul.textContent);
 }
